@@ -1,0 +1,47 @@
+/*
+Tensae Woldeselassie
+October 31th, 2019
+Section: AL / Wolman
+
+  This is my movies.css file that the look of the my movies / random news website. It gives
+  it a centered layout with a light blue background. Each movie is displayed with a shadow border
+  and rounded edge to give it a sleek look.
+*/
+
+body {
+  background-color: #e0f2f1;
+}
+
+body, section, div, header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+div {
+  margin: 10px;
+}
+
+img, section {
+  width: 500px;
+  height: auto;
+}
+
+section {
+  margin: 20px;
+}
+
+div, img {
+  box-shadow: 0 0 20px grey;
+  border-radius: 30px;
+}
+
+body, select, option {
+  font-family: 'Roboto Mono', monospace;
+}
